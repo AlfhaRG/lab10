@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x =7;
+        let y =10;
+        /*imprimiendo operaciones matematicas*/
+        document.write("x es igual a y: ", x==y,"<br>");
+        document.write("x es menor a y: ", x<y , "<br>");
+        document.write("x es diferente a y: ", x!=y , "<br>");
+        document.write("x es mayor a y: ", x>y , "<br>");
+
+        nombre = "Jhon";
+        apellido = "RG";
+        edad = 1.75;
+       /* imprimiendo variables nombre y apellido*/
+        document.write("your name is: ",nombre," ",apellido," ","<br>");
+        document.write("your age is: ",edad,"<br>");
+        /* pedir datos al usuario*/
+        const nombre1 = prompt('Ingrese su nombre:');
+        document.write(nombre1,"<br>");  
+
+        /*evaluar si alguien recibe el bono*/
+        let name = "Jhon RG";
+        let edad1 = prompt("ingresa tú edad: ");
+        let esEstudiante = true;
+        /*condicional*/
+        let respuesta = edad1 > 18 && esEstudiante;
+
+        document.write("Recibe el bono: ",respuesta,"<br>");
+
+        let esAdulto = true;
+        let tieneDinero = false;
+        let puedeEntrar =  esAdulto && tieneDinero;
+        let puedeSalir = esAdulto || tieneDinero;
+
+        document.write("Puede entrar a las disco: ",puedeEntrar,"<br>");
+        document.write("Puede Salir: ",puedeSalir,"<br>");
+
+
+        
+
+    </script>
+    
+</body>
+</html>
